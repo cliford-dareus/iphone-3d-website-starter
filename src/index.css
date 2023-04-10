@@ -169,7 +169,7 @@ nav .list-styled {
   height: 44px;
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  list-style-type: none;
 }
 
 nav .link-styled {
@@ -182,6 +182,7 @@ nav .link-styled {
   justify-content: center;
   height: 44px;
   color: #000000cc;
+  text-decoration: none;
 }
 
 .jumbotron-section.wrapper {
@@ -296,7 +297,7 @@ nav .link-styled {
   justify-content: center;
   align-items: center;
   animation-name: fadeOut;
-  animation-duration: 0.3s;
+  animation-duration: .3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
   pointer-events: none;
